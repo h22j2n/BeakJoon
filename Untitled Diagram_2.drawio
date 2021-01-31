@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-31T12:44:38.871Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="FekUVPzFL9ZLp6AHz9sl" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-31T12:46:35.495Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="Pdq3b0xsLnP0esr-dJ_u" version="14.2.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="946" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,7 +18,7 @@
             <mxPoint x="650" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hDotApyRSMBB-NTmGald-2" value="초대멤버" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="hDotApyRSMBB-NTmGald-2" value="초대멤버&lt;br&gt;(기가입 고객)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="590" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hDotApyRSMBB-NTmGald-3" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hDotApyRSMBB-NTmGald-0" target="hDotApyRSMBB-NTmGald-1">
