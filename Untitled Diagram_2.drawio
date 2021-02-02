@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T13:51:03.177Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="ElLgaDXTOCo5W8nQOUO8" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-02T13:56:39.077Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="2po4GVcXCQkPeD5hG4kF" version="14.2.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="826" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -115,7 +115,7 @@
             <mxPoint x="650" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hDotApyRSMBB-NTmGald-24" value="초대&amp;nbsp;유효기간&lt;br&gt;이내인지?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="hDotApyRSMBB-NTmGald-24" value="수락일자가&amp;nbsp;&lt;br&gt;초대&amp;nbsp;유효기간&lt;br&gt;이내인지?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="600" y="680" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hDotApyRSMBB-NTmGald-26" value="END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
