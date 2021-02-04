@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T11:42:28.709Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="tWKun0UyDhOxxT1UuoUc" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-04T11:44:59.928Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="L2mbritE8LpHN6ZFnjgq" version="14.2.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="830" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -386,8 +386,8 @@
         <mxCell id="OIPn1_da_YWg9B3JuE8C-146" value="멤버정보 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="579" y="1517" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="q8h5IYyH2biRPRbLkNhJ-0" value="&lt;span&gt;모임멤버 초대 (미가입 고객)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1;labelBackgroundColor=#FFF71C;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry y="20" width="310" height="20" as="geometry" />
+        <mxCell id="q8h5IYyH2biRPRbLkNhJ-1" value="&lt;span&gt;모임멤버 초대 (미가입 고객) 프로세스&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1;labelBackgroundColor=#FFF71C;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="10" width="380" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
