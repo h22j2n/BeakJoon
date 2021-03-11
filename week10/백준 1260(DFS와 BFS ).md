@@ -80,83 +80,80 @@ package N1260;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.StringBufferInputStream;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Main {
-    static int[][] link; //간선연결상태
-    static boolean[] checked; //확인여부
-    static int n; //정점개수
-    static int m; //간선개수
-    static int start; //시작정점
+
+public class Practice {
+    static int n; //정점의 개수 1~1000
+    static int m; //간선의 개수 1~10000
+    static int v; //시작점
+    static int[][] link; //연결상태
+    static boolean[] check; //확인상태
+
+
+    public static void main(String[] args) throws IOException{
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        n = Integer.parseInt(st.nextToken());
+        m = Integer.parseInt(st.nextToken());
+        v = Integer.parseInt(st.nextToken());
+
+        check = new boolean[1001];
+        link = new int[1001][1001];
+
+        //연결
+        for (int i = 0; i < m; i++) {
+            st = new StringTokenizer(br.readLine());
+            int x = Integer.parseInt(st.nextToken());
+            int y = Integer.parseInt(st.nextToken());
+            link[x][y] = link[y][x] = 1;
+        }
+
+        dfs(v);
+
+        check = new boolean[1001];
+        System.out.println();
+        bfs();
+
+
+        
+    }
 
     public static void dfs(int x){
-        checked[x] = true;
-        System.out.println(x + " ");
+        check[x] = true;
+        System.out.print(x + " ");
+
         for (int i = 1; i <= n; i++) {
-            if(link[x][i] == 1 && checked[i] == false) dfs(i);
+            if(link[x][i] == 1 && check[i] == false) dfs(i);
         }
     }
 
     public static void bfs(){
         Queue<Integer> q = new LinkedList<Integer>();
-        q.offer(start); //시작점도 큐에 넣기
-        checked[start] = true;
-        System.out.println(start + " ");
+        q.offer(v); //큐에 시작점을 넣음
+        check[v] = true;
+        System.out.print(v + " ");
 
-        //큐가 빌때까지 반복
         while(!q.isEmpty()){
-            int tmp = q.poll();
-            //해당 큐의 맨 앞에 있는(제일 먼저 저장된) 요소를 반환하고, 해당 요소를 큐에서 제거함.  만약 큐가 비어있으면 null을 반환함.
+            int tmp = q.poll(); //맨앞에 있는 애 꺼내기
 
             for (int i = 1; i <= n; i++) {
-                if(link[tmp][i] == 1 && checked[i] == false){
+                if(link[tmp][i] == 1 && check[i] == false){
                     q.offer(i);
-                    checked[i] = true;
-                    System.out.println(i + " ");
+                    check[i] = true;
+                    System.out.print(i + " ");
                 }
                 
             }
         }
-
-    }
-
-    public static void main(String[] args) throws IOException{
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
-
-        n = Integer.parseInt(st.nextToken());
-        m = Integer.parseInt(st.nextToken());
-        start = Integer.parseInt(st.nextToken());
-
-        link = new int[1001][1001];
-        checked = new boolean[1001];
-
-        for (int i = 0; i < m; i++) {
-            st = new StringTokenizer(br.readLine());
-            int x = Integer.parseInt(st.nextToken());
-            int y = Integer.parseInt(st.nextToken());
-
-            link[x][y] = link[y][x] = 1;
-        }
-
-        dfs(start);
-
-        checked = new boolean[1001];
-        System.out.println();
-
-        bfs();
-
-
-
-
         
+
+
     }
     
 }
-
 ```
 
 
